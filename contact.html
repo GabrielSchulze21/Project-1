@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadados e inclusão de CSS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Facebook Replica - Contato</title>
+</head>
+<body>
+    <!-- Cabeçalho com título e navegação -->
+    <header>
+        <h1>Adicionar Novo Contato</h1>
+        <nav>
+            <ul>
+                <!-- Links para as outras páginas -->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="images.html">Imagens</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contêiner centralizado -->
+    <div class="container">
+        <!-- Seção do formulário de contato -->
+        <section class="contact-form">
+            <h2>Formulário de Contato</h2>
+            <!-- Formulário de contato com validação HTML -->
+            <form id="contact-form">
+                <!-- Campo para nome -->
+                <div>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <!-- Campo para e-mail -->
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <!-- Campo para telefone -->
+                <div>
+                    <label for="phone">Telefone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <!-- Campo para endereço -->
+                <div>
+                    <label for="address">Endereço:</label>
+                    <input type="text" id="address" name="address" required>
+                </div>
+                <!-- Botão para adicionar contato -->
+                <button type="submit">Adicionar Contato</button>
+            </form>
+            <!-- Área de mensagens para feedback do usuário -->
+            <div id="message"></div>
+        </section>
+    </div>
+
+    <!-- Rodapé da página -->
+    <footer>
+        <p>&copy; 2024 MyFacebook. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Inclusão do script JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html> 
